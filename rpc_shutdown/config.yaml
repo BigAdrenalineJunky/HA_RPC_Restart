@@ -1,8 +1,8 @@
 ---
 version: "2.5"
-slug: rpc_shutdown
-name: RPC Shutdown
-description: Shutdown Windows machines remotely
+slug: rpc_reboot
+name: RPC Reboot
+description: Restart Windows machines remotely
 url: https://github.com/home-assistant/addons/tree/master/rpc_shutdown
 arch:
   - armhf
