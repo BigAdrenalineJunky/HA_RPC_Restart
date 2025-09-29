@@ -1,5 +1,5 @@
 ---
-version: "2.5"
+version: "2.6"
 slug: rpc_reboot
 name: RPC Reboot
 description: Restart Windows machines remotely
