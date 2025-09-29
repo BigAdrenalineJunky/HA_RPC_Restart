@@ -1,0 +1,18 @@
+name: "RPC Reboot"
+version: "1.0.0"
+slug: "rpc_reboot"
+description: "Reboot Windows machines remotely using net rpc"
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+stdin: true
+init: false
+map:
+  - config:rw
+options:
+  computers: {}
+schema:
+  computers:
+    type: dict
